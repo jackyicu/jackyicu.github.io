@@ -43,18 +43,19 @@ cd username.github.io
 '
 gem "github-pages", group: :jekyll_plugins
 '
+
 # Publish
 1. Type the following commands to publish it on github page:
-'
+'''
 git init
 git remote add origin https://github.com/username/username
 git add .
 git commit -m "update site"
 git push -u origin master
-'
+'''
+
 2. Go to check your website at username.github.io
+
 # Update
 1. Simply type the command:
-'
-bundle update
-'
+'bundle update'
