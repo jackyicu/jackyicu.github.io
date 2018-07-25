@@ -27,15 +27,19 @@ source 'https://rubygems.org'
 gem 'github-pages', group: :jekyll_plugins
 ```
 4. Type the commands:
-> `bundle install`
+
+`bundle install`
+
 5. Create a new jekyll repo with commands:
-> `bundle exec jekyll new username.github.io
+`bundle exec jekyll new username.github.io
 cd username.github.io`
 6. Edit Gemfile, put '#' before
-> ` "jekyll", "3.3.0"`
+
+` "jekyll", "3.3.0"`
 
 7. Remove '#' before
-> `gem "github-pages", group: :jekyll_plugins`
+
+`gem "github-pages", group: :jekyll_plugins`
 
 # Publish
 1. Type the following commands to publish it on github page:
@@ -51,4 +55,5 @@ git push -u origin master
 
 # Update
 1. Simply type the command:
-> `bundle update`
+
+`bundle update`
