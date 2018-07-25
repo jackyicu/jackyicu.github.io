@@ -15,7 +15,7 @@ Once the new server is installed on your vps, test the internet connection:
 Destroy the server if the connection is lost.
 
 #  Install shadowsocks-libev
-1. Installation
+## Installation
 For Debian 9 (Stretch) users, please install it from stretch-backports: We strongly recommend you to install shadowsocks-libev from stretch-backports. For more info about backports please refer to Debian Backports.
 ```
 sh -c 'printf "deb http://deb.debian.org/debian stretch-backports main" > /etc/apt/sources.list.d/stretch-backports.list' 
@@ -23,7 +23,7 @@ apt update
 apt -t stretch-backports install shadowsocks-libev
 ```
 
-2. Configuration
+## Configuration
 
 Use vi to edit configuration file and then restart shadowsocks-libev
 ```
@@ -43,7 +43,7 @@ vi /etc/shadowsocks-libev/config.json
 Restart shadowsocks-libev
 ```
 
-3. Test connection
+## Test connection
 
 Properly configurate the client and then test.
 Check the server log if neccessary:
