@@ -4,15 +4,23 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Tech fans.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Hardware in use:
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+* Macbook Air
+* iPhone 6s
+* iPhone SE
+* Philips 239CL display
+* Ugreen cable thunderbolt to VGA & DVI & HDMI
+* Logitech M558 mouse
 
+Software in use:
+* Patatso Lite
+* Twitter
+* Innoreader
+* Podcast
+* Google Photos
+* Microsoft News
+* Telegram
 
-[jekyll-organization]: https://github.com/jekyll
