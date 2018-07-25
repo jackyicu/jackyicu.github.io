@@ -12,7 +12,7 @@ Once the new server is installed on your vps, test the internet connection:
 
 `ping 0.0.0.0 # your server ip`
 
-Destroy the server is the connection is lost.
+Destroy the server if the connection is lost.
 
 #  Install shadowsocks-libev
 1. Installation
@@ -22,7 +22,9 @@ sh -c 'printf "deb http://deb.debian.org/debian stretch-backports main" > /etc/a
 apt update 
 apt -t stretch-backports install shadowsocks-libev
 ```
+
 2. Configuration
+
 Use vi to edit configuration file and then restart shadowsocks-libev
 ```
 vi /etc/shadowsocks-libev/config.json
@@ -40,26 +42,34 @@ vi /etc/shadowsocks-libev/config.json
 
 Restart shadowsocks-libev
 ```
+
 3. Test connection
+
 Properly configurate the client and then test.
 Check the server log if neccessary:
 
 `journalctl -u shadowsocks-libev`
 
 # Optimize connection
+
 Activate bbr to improve internet connection.
-```
-vi /etc/sysctl.d/local.conf
 
-# add these 2 lines to the file
-​net.core.default_qdisc = fq
-net.ipv4.tcp_congestion_control = bbr
+1. create a new file
 
-# type the following commands to activate and check the status of bbr:
-​sysctl --system
+`vi /etc/sysctl.d/local.conf`
+
+
+2. add these 2 lines to the file
 ​
+```
+net.core.default_qdisc = fq
+net.ipv4.tcp_congestion_control = bbr
+```
+
+3. type the following commands to activate and check the status of bbr:
+```
+​sysctl --system
 sysctl net.ipv4.tcp_available_congestion_control
 sysctl net.ipv4.tcp_congestion_control
-​
 lsmod | grep bbr
 ```
