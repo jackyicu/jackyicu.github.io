@@ -58,7 +58,6 @@ Activate bbr to improve internet connection.
 
 `vi /etc/sysctl.d/local.conf`
 
-
 2. add these 2 lines to the file
 ​
 ```
