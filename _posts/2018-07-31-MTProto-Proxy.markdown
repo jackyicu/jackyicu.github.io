@@ -4,8 +4,6 @@ title:  "MTProto proxy on Debian"
 date:   2018-07-31 10:10:00 +0800
 categories: jekyll update
 ---
-
-
 # MTProto proxy on Debian
 
 The Telegram Messenger MTProto proxy is a zero-configuration container that automatically sets up a proxy server that speaks Telegram's native MTProto.
