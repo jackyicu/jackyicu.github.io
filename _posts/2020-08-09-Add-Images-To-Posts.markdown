@@ -19,10 +19,10 @@ If your jekyll website is hosted on github pages like mine, you may follow this 
 
 Link your images in your markdown file:
 
-`![alt text for image](https://yourusername-github-io/public/img/imagelink.jpg)`
+`![alt text for image](https://yourusername.github.io/public/img/imagelink.jpg)`
 
 To show image in this post, the code should be:
 
-`![add image](https://jackyicu-github-io/public/img/addimage.jpg)`
+`![add image](https://jackyicu.github.io/public/img/addimage.jpg)`
 
-![add image](https://jackyicu-github-io/public/img/addimage.jpg)
+![add image](https://jackyicu.github.io/public/img/addimage.jpg)
