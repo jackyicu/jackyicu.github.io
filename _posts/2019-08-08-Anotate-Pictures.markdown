@@ -1,28 +1,28 @@
 ---
 layout: post
-title:  "Anotate pictures in documents"
+title:  "Annotate pictures in documents"
 date:   2018-08-08 17:10:00 +0800
 categories: jekyll update
 ---
 
-# Anotate pictures in documents
+# annotate pictures in documents
 
-Anotations for pictures in technical documents are very common. Most people did it in a inapropriate way like the following case:
+Annotations for pictures in technical documents are very common. Most people did it in a inapropriate way like the following case:
 Figure 1
-![inapropriate anotations](https://jackyc2016.files.wordpress.com/2018/08/1533712401189.jpg)
+![inapropriate annotations](https://jackyc2016.files.wordpress.com/2018/08/1533712401189.jpg)
 
 It will not work under below situations:
-1. Anotations contains a large block of texts.
-2. Revisions to the anotations
-3. Translations for the anotations from one language to another one
+1. annotations contains a large block of texts.
+2. Revisions to the annotations
+3. Translations for the annotations from one language to another one
 
 One of the best practices is that:
-1. Number the areas for anotations
-2. Add anotations to the above numbers
+1. Number the areas for annotations
+2. Add annotations to the above numbers
 
 As indicated in below:
 Figure 2
-![inapropriate anotations](https://jackyc2016.files.wordpress.com/2018/08/1533712736695.jpg)
+![inapropriate annotations](https://jackyc2016.files.wordpress.com/2018/08/1533712736695.jpg)
 1. Title
 2. Picture
 3. Body text
