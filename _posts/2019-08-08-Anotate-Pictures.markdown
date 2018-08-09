@@ -14,7 +14,7 @@ Figure 1
 ![inapropriate annotations](https://jackyc2016.files.wordpress.com/2018/08/1533712401189.jpg)
 
 It will not work under below situations:
-1. annotations contains a large block of texts.
+1. Annotations contain a large block of texts.
 2. Revisions to the annotations
 3. Translations for the annotations from one language to another one
 
@@ -22,7 +22,7 @@ One of the best practices is that:
 1. Number the areas for annotations
 2. Add annotations to the above numbers
 
-As indicated in below:
+As indicated in below figure:
 
 Figure 2
 
