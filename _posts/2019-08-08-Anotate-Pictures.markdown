@@ -5,7 +5,6 @@ date:   2018-08-08 17:10:00 +0800
 categories: jekyll update
 ---
 
-# annotate pictures in documents
 
 Annotations for pictures in technical documents are very common. Most people did it in a inapropriate way like the following case:
 
