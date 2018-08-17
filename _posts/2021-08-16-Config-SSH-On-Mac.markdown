@@ -25,5 +25,5 @@ Step 3. save the file and login remote server via shortname.
 
 `ssh dev`
 
-
+cd
 
