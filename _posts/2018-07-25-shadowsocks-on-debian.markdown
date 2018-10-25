@@ -41,7 +41,9 @@ vi /etc/shadowsocks-libev/config.json
 }
 
 Restart shadowsocks-libev
-```
+
+`service shadowsocks-libev restart`
+
 
 ## Test connection
 
