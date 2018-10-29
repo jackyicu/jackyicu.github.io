@@ -10,7 +10,9 @@ This tutorial is for setup of shadowsocks-libev on debian 9.
 # Test IP
 Once the new server is installed on your vps, test the internet connection:
 
-`ping 0.0.0.0 # your server ip`
+```
+ping 0.0.0.0 # your server ip
+```
 
 Destroy the server if the connection is lost.
 
@@ -39,10 +41,13 @@ vi /etc/shadowsocks-libev/config.json
     "local":"127.0.0.1",
     "fast_open":false
 }
+```
 
 Restart shadowsocks-libev
 
-`service shadowsocks-libev restart`
+```
+service shadowsocks-libev restart
+```
 
 
 ## Test connection
@@ -50,7 +55,9 @@ Restart shadowsocks-libev
 Properly configurate the client and then test.
 Check the server log if neccessary:
 
-`journalctl -u shadowsocks-libev`
+```
+journalctl -u shadowsocks-libev
+```
 
 # Optimize connection
 
@@ -58,16 +65,19 @@ Activate bbr to improve internet connection.
 
 1. create a new file
 
-`vi /etc/sysctl.d/local.conf`
+```
+vi /etc/sysctl.d/local.conf
+```
 
 2. add these 2 lines to the file
-​
+
 ```
 net.core.default_qdisc = fq
 net.ipv4.tcp_congestion_control = bbr
 ```
 
 3. type the following commands to activate and check the status of bbr:
+
 ```
 ​sysctl --system
 sysctl net.ipv4.tcp_available_congestion_control
