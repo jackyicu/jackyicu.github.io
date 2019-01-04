@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Inkscape"
+date:   2019-01-04 15:10:00 +0800
+categories: tech
+---
+
+I was looking for alternatives to Adobe Illustrator recently. LIfehacker recommended some as below:
+1. [OmniGraffle](https://www.omnigroup.com/omnigraffle/)
+2. [Inkscape](https://inkscape.org)
+3. [Vectr](https://vectr.com)
+
+First of all, I bypassed the first one OmniGraffle, the work is for the compnay but the company will not pay for it. So I searched the reviews of Inkscape and Vectr. Almost everyone said Inkscape works much better on Linux than on Mac. So I went to the third one Vectr first.
+
+I installed Vectr via Homebrew Casks. It poped out a tutorial to show me how to use it. After going through the tutorial I knew this is not what I need. So I just uninstall it and turned to Inkscape.
+
+Homebrew prompted to me that Install [XQuartz](https://www.xquartz.org) first. I hesitated for a while and searched What the hell XQuartz is and also other viable solutions. Unluckly there is no good choice but to install XQurtz.
+
+I opened one .ai formatted document with InkScape, the loading process is slow, yes I mean it. But anyway I got the patience to use it because I don't have no choice. The .ai document included Myriad font which is not installed on my Mac. Google it then and proved that my worry is reasonable: License is a must to use Myriad. So what can I do? I google font and it came to me the website [Google Fonts](https://fonts.google.com). Ok, that is good, luckly I can use free fonts. I replaced the fonts in the documents with ubuntu font family. It looks good, save it to svg format then.
+
+The speed of loading svg file seems acceptable. Good. Then I duplicated this svg file and make 8 copies with revisions of photos and descriptions. OMG, I began to love Inkscape. 
+
+Later I requested a colleague to send me another design file. It is .cdr format. Yes it is .cdr. Preview.app cannot preview it at all. Try Inkscape and it really surprised me!!! It loads cdr file perfectly too. Now I have to say I really love Inkscape now.
+
+Conclusion: I would highly recommend Inkscape to you guys. I love it.
+
