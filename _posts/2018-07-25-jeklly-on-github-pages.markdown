@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll on github pages"
 date:   2018-07-25 12:39:10 +0800
-categories: jekyll update
+categories: tech
 ---
 
 This tutorial is based on macOS High Sierra.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Config ssh on macOS"
 date:   2018-08-15 10:10:00 +0800
-categories: jekyll update
+categories: tech
 ---
 
 It is more productive to use a configuration file to manage multiple remote login via ssh on macOS.

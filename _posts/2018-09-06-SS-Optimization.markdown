@@ -2,7 +2,7 @@
 layout: post
 title:  "Optimization for Shadowsocks Server"
 date:   2018-09-06 08:30:00 +0800
-categories: jekyll update
+categories: tech
 ---
 
 Optimize the shadowsocks server (Debian 9) for handling thousands of cocurrent connections.

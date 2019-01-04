@@ -2,7 +2,7 @@
 layout: post
 title:  "Shadowsocks on debian 9"
 date:   2018-07-25 15:10:00 +0800
-categories: jekyll update
+categories: tech
 ---
 
 This tutorial is for setup of shadowsocks-libev on debian 9.

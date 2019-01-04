@@ -2,7 +2,7 @@
 layout: post
 title:  "Annotate pictures in documents"
 date:   2018-08-08 17:10:00 +0800
-categories: jekyll update
+categories: tech
 ---
 
 

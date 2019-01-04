@@ -2,7 +2,7 @@
 layout: post
 title:  "Add images to posts in jekyll"
 date:   2018-08-09 10:10:00 +0800
-categories: jekyll update
+categories: tech
 ---
 
 
