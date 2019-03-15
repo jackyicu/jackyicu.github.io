@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "v2ray"
+date:   2019-01-04 15:10:00 +0800
+categories: tech
+---
+
+After chinese spring festival holiday, shadowsocks failed to work with my topway network. There are lots of `connection timeout` records in the logs. I saw some complaints about this problem in the issues page of shadowsocks-libev on github. Other users replied that the tcp connections were blocked on the way back and suggested replacing ip or use simple-obfs.
+
+Replacing ip will affect other users on this server, so I turned to check simple-obfs.
+
+On the github page of simple-obfs, it said it was deprecated and there is a derivated project called v2ray-plugin. Then I said to myself, why not change to v2ray instead of using the v2ray-plugin?
+
+This post is about the problems I have encountered when I tried v2ray.
+
+# Which protocol?
+V2ray works like a platform, many transportation protocols can work on this platform: tcp, websocket, http2, mkcp and quic. 
+- Normal tcp doesn't work in my network condition. 
+- I tried vmess + tls later and found it works very well. 
+- http2 is not so stable. 
+- Websocket + Apache2 + cloudflare is stable but the setup is not easy.
+- mkcp work just ok. Bandwidth is restricted under China Telecome network condition.
+- I didn't try quic. Maybe it has the same problem as mkcp.
+
+# tls
+I got a free domain from Freenom and use the `acme.sh` to get ssl certificate as instructed in the v2ray user manual. You may fail if you didn't set A records to your server ip in the DNS setting. 
+
+# Apache2
+I tried Nginx first as the WebSocket proxy, it is not complicated for me but failed and I don't know why. Then turn to Caddy, failed again, it is complicated for me, really. Then Apache2, I follow the guide on DigitalOcean about how to setup Apache on Ubuntu 18.04. But still I got lots of errors.
+## a2enmod
+1. ssl module: include `sslEngin on` in the config file, and `a2enmod ssl` to enable ssl module.
+2. http_proxy module: `ProxyPass` doesn't work if this module is disabled. run `a2enmod http_proxy`
+3. proxy_wstunnel module: this is to proxy websocket, run `a2enmod http_proxy`, there is no need to add upgrade=WebSocket to ProxyPass, it will handles it automatically.
+4. proxy_http2 module: run `a2enmod proxy_http2` to enable it. But I failed to proxy http2. I don't how to configurate it.
+
+# The best choice
+For me, both the vmess + tls and Websocket + tls + Apache2 + cloudflare are ok. the first one seems faster and the second one seems much more safe.
+
+# Others
+I want to try h2 and will update this post if I figure it out.
