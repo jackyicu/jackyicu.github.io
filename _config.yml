@@ -25,7 +25,8 @@ github_username:  jackyicu
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
+remote_theme: academicpages/academicpages.github.io
 plugins:
   - jekyll-feed
 
