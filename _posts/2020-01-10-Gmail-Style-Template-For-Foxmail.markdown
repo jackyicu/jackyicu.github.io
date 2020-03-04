@@ -2,7 +2,7 @@
 layout: post
 title:  "Gmail Style Template for Foxmail"
 date:   2020-01-10
-categories: HowTo
+categories: howto
 ---
 
 Foxmail built-in templates are very ugly, but it has the best compatibility with Tencent Exmail.

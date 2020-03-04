@@ -2,7 +2,7 @@
 layout: post
 title:  "Inkscape"
 date:   2019-01-04 15:10:00 +0800
-categories: tech
+categories: howto
 ---
 
 I was looking for alternatives to Adobe Illustrator recently. LIfehacker recommended some as below:

@@ -2,7 +2,7 @@
 layout: post
 title:  "v2ray"
 date:   2019-01-04 15:10:00 +0800
-categories: tech
+categories: howto
 ---
 
 After chinese spring festival holiday, shadowsocks failed to work with my topway network. There are lots of `connection timeout` records in the logs. I saw some complaints about this problem in the issues page of shadowsocks-libev on github. Other users replied that the tcp connections were blocked on the way back and suggested replacing ip or use simple-obfs.

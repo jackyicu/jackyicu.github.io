@@ -2,7 +2,7 @@
 layout: post
 title:  "MTProto proxy on Debian"
 date:   2018-07-31 10:10:00 +0800
-categories: tech
+categories: howto
 ---
 
 # MTProto proxy on Debian

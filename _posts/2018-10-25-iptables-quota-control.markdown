@@ -2,7 +2,7 @@
 layout: post
 title:  "iptables quota control"
 date:   2018-09-06 08:30:00 +0800
-categories: tech
+categories: howto
 ---
 
 Use iptables and crontab to control daily,weekly, monthly quota of traffic over ports and protcols.
