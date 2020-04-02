@@ -10,7 +10,7 @@ So I tried to tunnel my access via v2ray with a ipv6 address.
 
 # Quick Start
 
-1. Check ip_forward, go to step 2 if you found the value is 1.
+1. Check `ip_forward`, go to step 2 if you found the value is 1.
 
 ```
 sysctl net.ipv4.ip_forward
@@ -19,6 +19,7 @@ net.ipv4.ip_forward = 1
 ```
 
 2. Enable ipv6 for your connection
+
 ```
 nano /etc/sysctl.conf
 # Append the below lines to enable your ipv6 connection
@@ -28,7 +29,7 @@ net.ipv6.conf.all.accept_ra=2
 net.ipv6.conf.eth0.accept_ra=2
 ```
 
-3. Add hoss of google scholar to /etc/hosts
+3. Add hoss of google scholar to `/etc/hosts`
 
 ```
 nano /etc/hosts
