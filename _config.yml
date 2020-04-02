@@ -23,7 +23,6 @@ twitter_username: jackyicu
 github_username:  jackyicu
 
 # Build settings
-markdown: CommonMark
 theme: minima
 # remote_theme: academicpages/academicpages.github.io
 plugins:
