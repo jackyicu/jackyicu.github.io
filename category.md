@@ -21,7 +21,7 @@ sitemap: false
         <a name="{{ category[0] }}"></a>
         <h2 class="post-list-heading">{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})</h2>
         {% assign sorted_posts = site.posts | sort: 'date' %}
-        <ul class="post-list">
+        <ul>
         {% for post in sorted_posts %}
             {%if post.categories contains category[0]%}
                 <li>
