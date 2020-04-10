@@ -20,13 +20,12 @@ sitemap: false
     {% for category in categories %}
         <a name="{{ category[0] }}"></a>
         <h2 class="post-list-heading">{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})</h2>
-        {% assign sorted_posts = site.posts | sort: 'title' %}
+        {% assign sorted_posts = site.posts | sort: 'date' %}
         <ul class="post-list">
         {% for post in sorted_posts %}
             {%if post.categories contains category[0]%}
                 <li>
-                    <span class="post-meta">{{ post.date |  date: "%B %e, %Y" }}</span>
-                    <h3><a class="post-link" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }} </a></h3>
+                   <a class="post-link" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }} </a>
                 </li>
             {%endif%}
         {% endfor %}
