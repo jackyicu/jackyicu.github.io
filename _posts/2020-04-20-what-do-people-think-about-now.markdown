@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What do people think about now when pandemic in china is a bit ease?"
-date: 2010-04-20
+date: 2020-04-20
 categories: review
 ---
 
