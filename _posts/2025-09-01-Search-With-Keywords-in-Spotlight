@@ -1,0 +1,35 @@
+# Search With Keywords in Spotlight
+
+Source: Google AI Overview and verified by Jacky
+To find files using Spotlight keywords, enter a specific word or phrase in the search field or add criteria like kind:presentations or date:MM/DD/YY. You can also assign text-based tags to files by right-clicking them, selecting "Get Info," and adding keywords to the Comments section. For more advanced searching, use Boolean operators like AND, OR, and NOT (in all caps) or use quotation marks for exact phrases. [1, 2, 3, 4, 5]  
+Using Search Fields and Criteria 
+
+1. Open Spotlight: Press Command + Space or click the magnifying glass icon. [6, 7]  
+2. Enter keywords: Type the word or phrase you're looking for in the search field. [1, 8]  
+3. Add criteria: To refine your search, click the pop-up menu to the right of the search field and choose criteria like: 
+	• kind: To find specific file types (e.g., kind:documents, kind:images). [1, 9]  
+	• date: To find files created on a specific date or within a date range. [1, 2, 9]  
+	• author: To search for items from a specific author. [1]  
+	• title: To find files with a specific title. [1]  
+	• name: To search for items where the name contains a specific word or phrase. [1, 9]  
+	• contains: To find items that include a specific word in their contents. [1]  
+
+Using Tags [3, 4]  
+
+1. Locate the file: in Finder. 
+2. Right-click: the file and select Get Info. 
+3. Add keywords to the Comments section, separating them with commas. 
+4. Search for the tag: In Spotlight, type the keyword you added to the Comments field. 
+
+Advanced Search with Boolean Operators 
+
+• AND: Combines terms, finding files that contain both words (e.g., trip AND Spain). [1, 5]  
+• OR: Finds files that contain either one term or the other (e.g., author:Tom OR author:Thom). [1, 5]  
+• NOT (or a minus sign -): Excludes results that contain a specific term (e.g., trip -france). [1, 5]  
+• Quotation marks: Find an exact phrase (e.g., "project dark castle"). [4, 5]  
+
+Example Searches kind:presentations new proposal, author:John, date:07/01/2024-07/31/2024, and comment:financial report. [1, 4]  
+
+AI responses may include mistakes.
+
+[1] https://support.apple.com/guide/mac-help/narrow-search-results-mh15155/mac[2] https://support.apple.com/en-vn/guide/mac-help/mh15155/mac[3] https://www.youtube.com/watch?v=2-yKvUJVlqo[4] https://www.lifewire.com/use-spotlight-keyword-searches-to-find-files-2260809[5] https://igotoffer.com/apple/what-is-spotlight[6] https://www.youtube.com/watch?v=11pshFTIUNo[7] https://www.youtube.com/watch?v=WHvMLsELD9E[8] https://support.apple.com/guide/mac-help/search-with-spotlight-mchlp1008/mac[9] https://support.apple.com/en-by/guide/mac-help/mh15155/mac
